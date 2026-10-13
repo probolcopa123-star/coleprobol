@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos de Limpieza</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 25px 25px 0 25px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #DDF8FF, #70DFFF, #B9F3FF);
+            color: #06476B;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .contenedor {
+            max-width: 1000px;
+            margin: 0 auto 30px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.92);
+            border-radius: 22px;
+            box-shadow: 0 5px 18px rgba(0, 100, 160, 0.2);
+            text-align: center;
+            flex: 1;
+        }
+
+        h1 {
+            color: #007DB5;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .imagen-colegio {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+        .texto {
+            font-size: 18px;
+            line-height: 1.7;
+            text-align: justify;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #008CCB;
+            font-size: 25px;
+            margin-top: 30px;
+        }
+
+        .redes {
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #DFF8FF;
+            border-radius: 18px;
+        }
+
+        .boton-facebook {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin: 15px;
+            padding: 12px 24px;
+            background-color: #1877F2;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 35px;
+            transition: 0.3s;
+        }
+
+        .boton-facebook:hover {
+            background-color: #0756B5;
+            transform: scale(1.05);
+        }
+
+        .boton-facebook img {
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        .boton-web {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 22px;
+            background-color: #00A9D9;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .boton-web:hover {
+            background-color: #007DAA;
+        }
+
+        /* Estilos del pie de página */
+        footer {
+            margin-top: auto;
+            width: 100%;
+            padding: 20px;
+            background-color: #00A8D8;
+            color: white;
+            text-align: center;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        footer p {
+            margin: 4px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <img
+            class="imagen-colegio"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb1wIaeK2OrPbtL0wD2s20eGM-k7CU1K2UEjkvrhgSpg&s=10"
+            alt="Logo del colegio">
+
+        <h1>¿Por qué son necesarios los productos de limpieza?</h1>
+
+        <p class="texto">
+            Los productos de limpieza son esenciales porque nos ayudan
+            a mantener un ambiente sano, seguro y libre de gérmenes.
+            En nuestra institución educativa, utilizarlos correctamente
+            permite prevenir enfermedades, mejorar la higiene de las aulas
+            y conservar limpios los espacios que compartimos diariamente.
+            Un colegio limpio favorece el bienestar de los estudiantes,
+            docentes y demás integrantes de la comunidad educativa.
+        </p>
+
+        <h2>¡Visítanos en nuestras redes!</h2>
+
+        <div class="redes">
+
+            <p>
+                Conoce las actividades, noticias y novedades de nuestra
+                institución educativa.
+            </p>
+
+            <a class="boton-facebook"
+               href="https://www.facebook.com/ProvBolivar/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7SmXt0tQX3YVtZSuDJSV4lQuaEHPcANfIYV98Nxto3w&s"
+                    alt="Facebook del colegio">
+
+                Visítanos en Facebook
+            </a>
+
+            <br>
+
+            <a class="boton-web"
+               href="https://colegioprovinciabo.wixsite.com/provinciadebolivar"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                Página web del colegio
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Pie de página integrado -->
+    <footer>
+        <p><strong>UNIDAD EDUCATIVA PROVINCIA DE BOLÍVAR</strong></p>
+        <p>© 2026 Todos los derechos reservados • Compromiso e Higiene Escolar</p>
+    </footer>
+
+</body>
+</html>
